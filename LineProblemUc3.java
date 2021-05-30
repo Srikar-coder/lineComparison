@@ -13,8 +13,8 @@ int a1 = sc.nextInt();
 int b1 = sc.nextInt();
 int a2 = sc.nextInt();
 int b2 = sc.nextInt();
-int len1 = (int)Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2));
-int len2 = (int)Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2));
+double len1 = Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2));
+double len2 = Math.sqrt(Math.pow(a2-a1,2)+Math.pow(b2-b1,2));
 if(len1 == len2)
 System.out.println("lengths are equal");
 else if(len1>len2)
